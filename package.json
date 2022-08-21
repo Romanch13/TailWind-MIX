@@ -7,7 +7,7 @@
     "watch": "mix watch",
     "watch-poll": "mix watch -- --watch-options-poll=1000",
     "prod": "mix --production",
-    "watch-t": "npx tailwindcss -i ./src/sass/app.sass -o ./public/css/app.css --watch"
+    "watch1": "npx mix tailwindcss -i ./src/sass/app.sass -o ./public/css/app.css --watch"
   },
   "keywords": [],
   "author": "",

@@ -1,11 +1,10 @@
 let mix = require('laravel-mix');
 require('mix-tailwindcss');
 mix.js('src/js/*.js', 'js');
-mix.sass('src/sass/app.sass', 'css').tailwind('./tailwind.config.js');
-// mix.css(
-//   'public/libs/bootstrap5.2/css/bootstrap.min.css',
-//   'libs/bootstrap5.2/css/bootstrap.min.css'
-// );
+mix.sass('src/sass/app.sass', 'css');
+
+mix.tailwind('./tailwind.config.js');
+
 mix.browserSync({
   server: {
     baseDir: 'public',
