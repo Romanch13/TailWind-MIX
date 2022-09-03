@@ -2,6 +2,10 @@
 module.exports = {
   content: ['./public/index.html'],
   theme: {
+    fontFamily: {
+      inter: ['Inter', 'sans-serif'],
+      poppins: ['Poppins', 'sans-serif'],
+    },
     screens: {
       '2xl': {max: '1400px'},
       // => @media (max-width: 1400px) { ... }
@@ -16,8 +20,15 @@ module.exports = {
       xs: {max: '480px'},
       // => @media (max-width: 480px) { ... }
     },
-    colors: {},
-    extend: {},
+
+    extend: {
+      colors: {
+        white: '#ffff',
+        imgBack: '#2D3139',
+        graylight: '#535A61',
+        black: '#000',
+      },
+    },
   },
   plugins: [],
 };

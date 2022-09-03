@@ -3,7 +3,7 @@ require('mix-tailwindcss');
 mix.js('src/js/*.js', 'js');
 mix.sass('src/sass/app.sass', 'css');
 
-mix.tailwind('./tailwind.config.js');
+mix.tailwind('tailwind.config.js');
 
 mix.browserSync({
   server: {
