@@ -27,6 +27,7 @@ module.exports = {
         imgBack: '#2D3139',
         graylight: '#535A61',
         black: '#000',
+        icon: '#EBECEE',
       },
     },
   },

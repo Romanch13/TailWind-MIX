@@ -4,7 +4,11 @@ mix.js('src/js/*.js', 'js');
 mix.sass('src/sass/app.sass', 'css');
 
 mix.tailwind('tailwind.config.js');
-
+mix.webpackConfig({
+  stats: {
+    children: false,
+  },
+});
 mix.browserSync({
   server: {
     baseDir: 'public',
