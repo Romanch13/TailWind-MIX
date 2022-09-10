@@ -1,6 +1,6 @@
 # TailWind-MIX
 
-1. Clear project
+1. Test project
 2. Work function (px to rem)
 3. Sass build
 4. Webpack.config + tailwind
